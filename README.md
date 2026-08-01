@@ -6,6 +6,8 @@
 ![OpenAI SDK](https://img.shields.io/badge/OpenAI_SDK-412991?style=flat&logo=openai&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat&logo=render&logoColor=white)
 
+**[Live API](https://resume-parser-api-h04v.onrender.com)** — try it interactively at **[/docs](https://resume-parser-api-h04v.onrender.com/docs)**
+
 A small, focused REST API: upload a resume (PDF, DOCX, or TXT), get back structured JSON — name, contact info, skills, work experience, and education. Built as a standalone backend service — no frontend, no database. Interactive documentation (Swagger UI) is generated automatically by FastAPI.
 
 ## Endpoint
@@ -63,7 +65,7 @@ Interactive Swagger UI — try the API directly from your browser.
 ## Example
 
 ```bash
-curl -X POST https://your-deployment.onrender.com/api/parse-resume \
+curl -X POST https://resume-parser-api-h04v.onrender.com/api/parse-resume \
   -H "X-API-Key: your-key-if-set" \
   -F "file=@resume.pdf"
 ```
